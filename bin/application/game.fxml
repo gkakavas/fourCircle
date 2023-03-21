@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1050.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <ImageView fitHeight="1098.0" fitWidth="1920.0" opacity="0.86" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wallpaper2you_347852.jpg" />
+         </image>
+      </ImageView>
+      <GridPane alignment="CENTER" layoutX="141.0" layoutY="63.0" prefHeight="917.0" prefWidth="1464.0" style="-fx-background-color: parent;">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1069.0" minWidth="10.0" prefWidth="879.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="949.0" minWidth="10.0" prefWidth="871.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fx:id="circleA7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="circleA6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="1" />
+            <Circle fx:id="circleA5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="2" />
+            <Circle fx:id="circleA4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="3" />
+            <Circle fx:id="circleA3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="4" />
+            <Circle fx:id="circleA2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="5" />
+            <Circle fx:id="circleA1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="6" />
+            <Circle fx:id="circleA0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="7" />
+            <Circle fx:id="circleB7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
+            <Circle fx:id="circleB6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Circle fx:id="circleB5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Circle fx:id="circleB4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Circle fx:id="circleB3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Circle fx:id="circleB2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Circle fx:id="circleB1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Circle fx:id="circleB0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Circle fx:id="circleC7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" />
+            <Circle fx:id="circleC6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Circle fx:id="circleC5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Circle fx:id="circleC4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Circle fx:id="circleC3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Circle fx:id="circleC2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Circle fx:id="circleC1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Circle fx:id="circleC0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Circle fx:id="circleD7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" />
+            <Circle fx:id="circleD6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Circle fx:id="circleD5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Circle fx:id="circleD4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Circle fx:id="circleJ7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" />
+            <Circle fx:id="circleI7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" />
+            <Circle fx:id="circleH6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Circle fx:id="circleH7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" />
+            <Circle fx:id="circleG6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Circle fx:id="circleG7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" />
+            <Circle fx:id="circleF6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Circle fx:id="circleF7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" />
+            <Circle fx:id="circleE0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Circle fx:id="circleE1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Circle fx:id="circleE2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Circle fx:id="circleE3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Circle fx:id="circleE4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Circle fx:id="circleE5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Circle fx:id="circleE6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Circle fx:id="circleE7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" />
+            <Circle fx:id="circleD0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Circle fx:id="circleD1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Circle fx:id="circleD2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Circle fx:id="circleD3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Circle fx:id="circleI6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Circle fx:id="circleK7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" />
+            <Circle fx:id="circleM7" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" />
+            <Circle fx:id="circleJ6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Circle fx:id="circleK6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Circle fx:id="circleM6" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Circle fx:id="circleF5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Circle fx:id="circleG5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Circle fx:id="circleH5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Circle fx:id="circleI5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Circle fx:id="circleJ5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Circle fx:id="circleK5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+            <Circle fx:id="circleM5" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+            <Circle fx:id="circleF4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Circle fx:id="circleG4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Circle fx:id="circleH4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Circle fx:id="circleI4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Circle fx:id="circleJ4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Circle fx:id="circleK4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <Circle fx:id="circleM4" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+            <Circle fx:id="circleF3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Circle fx:id="circleG3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Circle fx:id="circleH3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Circle fx:id="circleI3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Circle fx:id="circleJ3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Circle fx:id="circleK3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+            <Circle fx:id="circleM3" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+            <Circle fx:id="circleF2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Circle fx:id="circleG2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Circle fx:id="circleH2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Circle fx:id="circleI2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Circle fx:id="circleJ2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Circle fx:id="circleK2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+            <Circle fx:id="circleM2" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+            <Circle fx:id="circleF1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Circle fx:id="circleG1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Circle fx:id="circleH1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Circle fx:id="circleF0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Circle fx:id="circleG0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Circle fx:id="circleH0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Circle fx:id="circleI1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Circle fx:id="circleI0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Circle fx:id="circleJ1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Circle fx:id="circleJ0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Circle fx:id="circleK1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+            <Circle fx:id="circleM1" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+            <Circle fx:id="circleK0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+            <Circle fx:id="circleM0" fill="#3d3dcc" radius="51.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+      <Button fx:id="hitCol0" layoutX="149.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol0" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol1" layoutX="271.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol1" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol2" layoutX="394.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol2" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol3" layoutX="516.0" layoutY="29.0" mnemonicParsing="false" onAction="#actionHitCol3" onDragDropped="#backAction" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol4" layoutX="639.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol4" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol5" layoutX="760.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol5" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol6" layoutX="885.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionHitCol6" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol7" layoutX="1008.0" layoutY="28.0" mnemonicParsing="false" onAction="#actionHitCol7" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol8" layoutX="1130.0" layoutY="29.0" mnemonicParsing="false" onAction="#actionHitCol8" onDragOver="#backAction" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol9" layoutX="1252.0" layoutY="30.0" mnemonicParsing="false" onAction="#actionHitCol9" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol10" layoutX="1374.0" layoutY="30.0" mnemonicParsing="false" onAction="#actionHitCol10" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="hitCol11" layoutX="1496.0" layoutY="31.0" mnemonicParsing="false" onAction="#actionHitCol11" prefHeight="971.0" prefWidth="107.0" style="-fx-background-color: transparent;" />
+      <Label fx:id="player" layoutX="1725.0" layoutY="28.0" prefHeight="51.0" prefWidth="161.0" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="1671.0" layoutY="914.0" mnemonicParsing="false" onAction="#backAction" prefHeight="67.0" prefWidth="217.0" style="-fx-background-color: parent;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
